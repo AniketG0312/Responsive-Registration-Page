@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="title">Registration</div>
+        <form action="#">
+            <div class="userdetails">
+                <div class="input-box">
+                    <span class="details">Full Name:</span>
+                    <input type="text"   placeholder="Enter Full Name"   required>
+                </div>
+                <div class="input-box">
+                    <span class="details">User Name:</span>
+                    <input type="text" placeholder=" Enter Username"  required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email :</span>
+                    <input type="email" placeholder="Enter Email"  required>
+                </div>
+                <div class="input-box">Phone Number:</span>
+                    <input type="tel" placeholder="Enter Phone Number" pattern="+91-[0-9]" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Password:</span>
+                    <input type="password" placeholder="Enter Password"  required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password:</span>
+                    <input type="password" placeholder="Enter Password "  required>
+                </div>
+                <!-- ---------------------------- -->
+                <div class="gender-details">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                       <input type="radio" class="rbtn" name="gender" value="Male" checked><span >Male</span>
+                       <input type="radio" class="rbtn" name="gender" value="female"><span  >Female</span>
+                       <input type="radio" class="rbtn" name="gender" value="other"><span >Prefer to not say</span>
+                    </div>
+                </div> 
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+  </body>
+</html>
